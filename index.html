@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>INICIO | CASA HOMERO | HOGAR</title>
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="Slider/sss.css" />
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="Slider/sss.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>AREA DE COMUNINICACIONES - RAFAM</h1>
+			<h3>Servicio Técnico</h3>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#">INICIO</a></li>
+				<li><a href="catalogo.php">ESTADO TIKET</a>
+				<li><a href="servicios.html">SERVICIOS</a></li>
+				<li><a href="contacto.html">ABRIR TIKET</a></li>
+				<li><a href="www/frm_login.html">AREA PRIVADA</a></li>
+			</ul>
+		</nav>
+		<section id="principal">
+			<h1> Usuario: (deberia salir el nombre del usuario)</h1>
+			<p>Para iniciar una solicitud de asistencia técnica haga clic en "ABRIR TIKET",
+			   se le asignará automaticamente un numero de pedido él cual se le solicitara
+			   cada vez que desee consultar por el estado de su solicitud hasta tanto finalice
+			   la misma.</p>
+			<div id="slideWrap">
+				<div class="slider">
+					<img src="images/img_001.jpg" width="320px" height="172px" /> <img
+						src="images/img_002.jpg" width="320px" height="172px" /> <img
+						src="images/img_003.jpg" width="320px" height="172px" /> <img
+						src="images/img_004.jpg" width="320px" height="172px" /> <img
+						src="images/img_005.jpg" width="320px" height="172px" /> <img
+						src="images/img_006.jpg" width="320px" height="172px" /> <img
+						src="images/img_007.png" width="320px" height="172px" />
+				</div>
+			</div>
+			<p>NOTA:
+			        Es importante que sea claro y preciso a la hora de informar la falla que
+			   presenta su equipo.</p>
+		</section>
+
+		<footer>
+			&copy 2016 | www.m3f.com | <span id=destacado>Todos los
+				derechos reservados </span>
+		</footer>
+	</div>
+	<!-- fin wrapper -->
+	<script>
+		$(document).ready(function() {
+			$(".slider").sss();
+
+		});
+	</script>
+</body>
+</html>
