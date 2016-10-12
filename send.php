@@ -8,6 +8,7 @@ if (isset($_POST['enviar']) && $_POST ["captcha"] && $_POST  ["captcha"] !="" &&
 	$nombre = $_POST ['nombre'];
 	$mail = $_POST ['mail'];    // Emisor
 	$empresa = $_POST ['empresa'];
+	$hardsoft = $_POST ['hs'];
 	
 // $header arma le encabezado del mail   	
     $header = "From: " . $mail . " \r\n";
